@@ -249,6 +249,7 @@ td, th {
 	margin: 2em auto;
 }
 #lg{
+	color: lightgray;
 	font-size: 150px;
 	text-align: center;
 	margin: 20px;
@@ -256,13 +257,14 @@ td, th {
 	text-shadow: 2px 2px 5px;
 }
 #lgdv{
-	background-color: gray;
+	background-color: rgba(102, 102, 102, 0.6) ;
 	width: 560px;
 	height: 700px;
 	right: 5%;
 	position: absolute;
 	top: 10%;
-	border-radius: 20px;
+	border-radius: 0px;
+	opacity: 1;	
 }
 #imput{
 	font-size: 30px;
@@ -281,14 +283,24 @@ td, th {
 	border-radius: 20px;
 }
 #judo{
-	background-color: aquamarine;
+	background-color: rgba(0, 0, 0, 0.7);
 	width: 95%;
 	height: 95%;
 	top: 2.5%;
 	right: 2.5%;
 	position: absolute;
 	border-radius: 20px;	
+	opacity: 1;	
 }
 #lgbd{
-	
+
+}
+#motin{
+	filter: blur(0px);
+	height: 100%;
+	width: 100%;
+}
+#logomt{
+	position: absolute;
+	margin-left: 100px;
 }
