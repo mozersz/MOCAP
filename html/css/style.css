@@ -250,7 +250,7 @@ td, th {
 }
 #lg{
 	color: lightgray;
-	font-size: 150px;
+	font-size: 120px;
 	text-align: center;
 	margin: 20px;
 	padding: 20px;
@@ -303,4 +303,11 @@ td, th {
 #logomt{
 	position: absolute;
 	margin-left: 100px;
+}
+#sexo{
+	position: absolute;
+	right: 38%;
+	top: 49%;
+	font-size: 150%;	
+	color: white;
 }
