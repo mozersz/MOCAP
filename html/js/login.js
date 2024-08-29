@@ -1,7 +1,13 @@
-const usuario.document.getElementById("imput");
-const senha.document.getElementById("imput");
-if(usuario == "" || senha == "") {
-    alert("Os campos não foram preenchidos");
-} else{
-    alert("funfo porra")
-}
+document.getElementById('login').addEventListener('buta', function(event) {
+    event.preventDefault();
+
+    const username = document.getElementById('input').value;
+    const password = document.getElementById('imput').value;
+
+    if (username === 'joab' && password === '123') {
+        alert('u gay');
+
+    } else {
+        document.getElementById('aviso').textContent = 'Usuário/Senha Invalidos';
+    }
+})
